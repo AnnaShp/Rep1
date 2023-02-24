@@ -1,0 +1,67 @@
+.grey {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(195, 193, 193);
+    height: 380px;
+    align-items: stretch;
+}
+
+.hat,
+.mainpart,
+aside,
+nav,
+.more,
+.more3 {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    background-color: rgb(240, 217, 175);
+    flex-basis: 70%
+}
+
+.more,
+.more3 {
+    background-color: rgb(246, 202, 137);
+}
+
+.orange {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    justify-content: space-evenly;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.more {
+    width: 40%;
+
+}
+
+.more3 {
+    width: 91%;
+
+}
+
+aside {
+    background-color: rgb(177, 235, 193);
+    flex-basis: 30%;
+}
+
+nav {
+    background-color: white;
+    width: 20%;
+    margin-top: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+
+}
