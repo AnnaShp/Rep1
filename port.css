@@ -1,0 +1,192 @@
+ul,
+h1,
+h2,
+h3,
+p {
+    font-family: Gilroy-Bold;
+}
+
+ul {
+    font-size: 18px;
+    line-height: 22.28px;
+}
+
+.black,
+h1,
+article:last-child {
+    color: #070707;
+}
+
+li {
+    color: #828282;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 47.34px;
+    line-height: 58.61px;
+}
+
+h1 {
+    display: inline-block;
+    width: 123.51px;
+    height: 118.17px;
+    margin: 1% 5% 1% 12%
+}
+
+.line {
+    display: block;
+    width: 70%;
+    margin: 0 15%;
+}
+
+.from,
+article:last-child,
+.store p,
+.welcome p {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 21.83px;
+}
+
+.from {
+    display: flex;
+    flex-basis: 160px;
+    margin-top: 5%;
+    /*calc(100%-155.65px/2)*/
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 155.65px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 19.81px;
+}
+
+span:first-child {
+    color: #828282;
+}
+
+li {
+    display: flex;
+}
+
+.about {
+    display: flex;
+    margin: 1% 4% 1% 8%;
+    gap: 23em;
+}
+
+.lang {
+    display: flex;
+    transform: rotate(270deg);
+}
+
+.photo {
+    display: flex;
+    width: 65%;
+    margin: 5% 18%
+}
+
+.hi,
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    width: 100%;
+}
+
+.hi {
+    height: 506px;
+
+}
+
+h2 {
+    font-size: 34px;
+    line-height: 42.09px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.second {
+    display: inline-block;
+    width: 485.34px;
+    height: 218px;
+    margin-left: 40%
+        /*480px;*/
+}
+
+.black {
+    text-align: center;
+}
+
+.logo {
+    width: 89.07px;
+    height: 88.41px;
+}
+
+.prog {
+    display: flex;
+    justify-content: center;
+    gap: 168px;
+}
+
+.layuot {
+    display: flex;
+    width: 65%;
+    margin: 2% 16%
+}
+
+.store p {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 44px;
+    margin-bottom: 98px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #070707;
+    color: #fff;
+    border-radius: 23px;
+    width: 180.5px;
+    height: 42px;
+}
+
+.icons img {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    margin-top: 80px;
+    margin: 60px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.like {
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 16.98px;
+    color: #828282;
+}
+
+.like {
+    display: flex;
+    justify-content: center;
+}
