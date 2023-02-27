@@ -74,6 +74,7 @@ span:first-child {
 
 li {
     display: flex;
+    list-style-type: none;
 }
 
 .about {
@@ -189,4 +190,9 @@ button {
 .like {
     display: flex;
     justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
