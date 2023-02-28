@@ -1,0 +1,72 @@
+.header {
+    background-color: rgb(222, 217, 217);
+    grid-area: 1/1/2/3;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.content {
+    background-color: rgb(229, 245, 185);
+    display: grid;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.more-1,
+.more-2,
+.more-3 {
+    background-color: rgb(243, 167, 161);
+    display: inline-flex;
+    width: 31vw;
+    height: 5vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pink {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.more-3 {
+    width: 65vw;
+}
+
+.right {
+    background-color: rgb(136, 183, 136);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.bottom {
+    background-color: rgb(222, 217, 217);
+    grid-area: 3/1/4/3;
+    height: 70px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section {
+    background-color: aliceblue;
+    display: inline-flex;
+    width: 23vw;
+    height: 5vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 70px 1fr 70px;
+    height: 35vh;
+    width: 100%;
+}
