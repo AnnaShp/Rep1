@@ -9,7 +9,7 @@
 .hat,
 .mainpart,
 aside,
-nav,
+.bottom,
 .more,
 .more3 {
     text-align: center;
@@ -54,7 +54,7 @@ aside {
     flex-basis: 30%;
 }
 
-nav {
+.bottom {
     background-color: white;
     width: 20%;
     margin-top: 1em;
